@@ -1,0 +1,100 @@
+@media screen and (max-width: 896px){
+  /* ***********
+    common
+*********** */
+.animate {
+  transform: none;
+  opacity: 1;
+}
+
+.animate.slide-from-left {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.animate.slide-from-right {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+
+  /* ***********
+    magazine
+*********** */
+.flex-item {
+  flex-direction: column;
+}
+
+.flex-item .item {
+  width: 100%;
+}
+
+/* ***********
+    fashion
+*********** */
+#fashion {
+  padding-top: 35px;
+  margin-bottom: 50px;
+}
+
+
+/* ***********
+    catalog-antique
+*********** */
+#catalog-antique {
+  padding: 30px 0;
+}
+
+#catalog-antique .flex-item {
+  flex-direction: column;
+}
+
+#catalog-antique .item {
+  width: 100%;
+}
+
+#catalog-antique .sec-title:first-child {
+  padding-top: 60px;
+}
+
+/* ***********
+    voices
+*********** */
+.voices-container {
+  flex-direction: column;
+}
+
+.voices {
+  width: 98%;
+  margin-bottom: 16px;
+}
+
+.voices-text {
+  width: 98%;
+}
+
+
+/* ***********
+    site-map
+*********** */
+#site-map .flex-item {
+  flex-direction: column;
+  width: 100%;
+  padding-top: 0;
+}
+
+#site-map .item {
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 10%;
+}
+
+#site-map .item:first-child {
+  text-align: center;
+}
+
+#site-map p {
+  width: 80%;
+}
+
+}
